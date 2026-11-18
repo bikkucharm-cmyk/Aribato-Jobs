@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ARIBATO JOBS</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aribato Jobs - Tokyo</title>
 <style>
-body{margin:0;background:#F5F1E8;font-family:sans-serif}
-.top{background:#D32F2F;color:white;padding:20px;text-align:center}
-.box{background:white;margin:15px;border:3px solid #000;border-left:10px solid #D32F2F;padding:15px;border-radius:12px}
-.btn{background:#000;color:#fff;padding:8px 16px;border-radius:20px;text-decoration:none;display:inline-block;margin-top:8px}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial}
+body{background:#f8f9ff}
+.header{background:linear-gradient(135deg,#D32F2F,#8B0000);color:white;padding:40px 20px;text-align:center}
+.header h1{font-size:32px;letter-spacing:2px}.header p{opacity:0.9;margin-top:8px}
+.search-box{background:white;max-width:600px;margin:-25px auto 20px;padding:15px;border-radius:50px;box-shadow:0 10px 30px rgba(0,0,0,0.15);display:flex}
+.search-box input{flex:1;border:none;outline:none;padding:10px 15px;font-size:16px}
+.search-box button{background:#D32F2F;color:white;border:none;padding:10px 25px;border-radius:50px;cursor:pointer}
+.container{max-width:1000px;margin:0 auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:white;border-radius:15px;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,0.08);transition:0.3s;border-top:4px solid #D32F2F}
+.card:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(0,0,0,0.12)}
+.card h3{color:#222;margin-bottom:5px}.company{color:#666;font-size:14px;margin-bottom:10px}
+.tag{display:inline-block;background:#ffe5e5;color:#D32F2F;padding:4px 10px;border-radius:20px;font-size:12px;margin:5px 5px 10px 0}
+.btn{display:block;background:#111;color:white;text-align:center;padding:12px;border-radius:10px;text-decoration:none;margin-top:15px;font-weight:bold}
+.footer{text-align:center;padding:30px;color:#888}
 </style>
 </head>
 <body>
-<div class="top"><h1>ARIBATO JOBS</h1><p>ありがとう - Dubai to Japan Hiring</p></div>
-<div class="box"><h3>PHP Developer - ¥600k</h3><p>Fujiyama Tech, Abu Dhabi</p><a class="btn" href="#">Apply Now</a></div>
-<div class="box"><h3>UI Designer - ¥500k</h3><p>Sakura Studio, Tokyo - REMOTE</p><a class="btn" href="#">Apply Now</a></div>
-<div class="box"><h3>Japanese Translator - AED 4000</h3><p>Aribato Global, Dubai</p><a class="btn" href="#">Apply Now</a></div>
+<div class="header">
+<h1>ARIBATO JOBS 🇯🇵</h1>
+<p>Tokyo Jobs for Students & Working Professionals - Shinjuku | Shibuya | Ueno</p>
+</div>
+
+<div class="search-box">
+<input type="text" placeholder="Search job - e.g. Developer, Staff...">
+<button>Search</button>
+</div>
+
+<div class="container">
+<div class="card">
+<h3>PHP Developer</h3>
+<p class="company">Fujiyama Tech - Shinjuku, Tokyo</p>
+<span class="tag">Full Time</span><span class="tag">¥600,000/month</span>
+<p style="font-size:14px;color:#444;margin-top:10px">For college students who know PHP/Laravel. Working visa support.</p>
+<a class="btn" href="mailto:apply@aribato.com">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>UI/UX Designer</h3>
+<p class="company">Sakura Studio - Shibuya, Tokyo</p>
+<span class="tag">Part Time OK</span><span class="tag">¥500,000/month</span>
+<p style="font-size:14px;color:#444;margin-top:10px">Design job for creative friends. College project portfolio accepted.</p>
+<a class="btn" href="mailto:apply@aribato.com">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>Konbini / FamilyMart Staff</h3>
+<p class="company">FamilyMart - Ueno, Tokyo</p>
+<span class="tag">Arubaito</span><span class="tag">¥1,500/hour</span>
+<p style="font-size:14px;color:#444;margin-top:10px">Best for students - Flexible timing, Japanese N4 OK, Working friendly.</p>
+<a class="btn" href="mailto:apply@aribato.com">Apply Now</a>
+</div>
+</div>
+
+<div class="footer">Made for friends in Japan ❤️ Aribato = Arigato (Thank You)</div>
 </body>
 </html>
